@@ -4,19 +4,19 @@
 
 The Mullin palette should feel intelligent, tactile, restrained, and unexpectedly alive. It should not look like a generic developer portfolio, a luxury-brand imitation, or a rainbow design system.
 
-The default experience is warm and editorial: dark ink on soft paper, with one decisive signal color.
+The default experience is warm and editorial: dark ink on soft paper, with orange used as a single, precise accent.
 
 ## Core palette
 
 | Token | Hex | Role |
 |---|---:|---|
 | `ink` | `#171714` | Primary text, dark surfaces, strong rules |
-| `paper` | `#F4F0E8` | Default page background |
+| `paper` | `#F7F5EF` | Default premium cotton-paper page background |
 | `paperBright` | `#FFFDF8` | Raised surfaces and cards |
 | `graphite` | `#5F5E58` | Secondary text |
 | `line` | `#D4CEC2` | Borders, dividers, quiet structure |
-| `signal` | `#E94F37` | Primary accent, active states, small moments of emphasis |
-| `signalDark` | `#B93526` | Accent hover and pressed state |
+| `signal` | `#FF9D00` | Primary orange accent and small moments of emphasis |
+| `signalDark` | `#A95300` | Accessible orange hover and pressed state |
 | `field` | `#DCE6DF` | Quiet alternate field or project surface |
 | `night` | `#101820` | Optional dark section background |
 | `white` | `#FFFFFF` | Text on dark or signal surfaces |
@@ -27,7 +27,7 @@ A typical page should feel roughly:
 
 - 70–80% `paper` or `paperBright`
 - 15–25% `ink`, `graphite`, and `line`
-- 5% or less `signal`
+- 5% or less orange accent
 
 The accent should behave like punctuation, not wallpaper.
 

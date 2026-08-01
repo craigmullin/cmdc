@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">gesture-10</title>
+  <desc id="desc">Monochrome abstract maker's-mark exploration.</desc>
+  <path d="M20 92L48 24L68 72L100 28" fill="none" stroke="#111111" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="48" cy="24" r="5" fill="#111111"/><circle cx="68" cy="72" r="5" fill="#111111"/>
+</svg>
