@@ -14,7 +14,7 @@ export const projects = [
     href: 'https://spikechat.craigmullin.com',
   },
   {
-    title: 'Home Garage Manager',
+    title: 'Garage Ledger',
     status: 'Concept / in development',
     description: 'A personal garage and maintenance-history app designed around real repair work, parts, torque specifications, receipts, and service intervals.',
     technology: 'Product design · Data modeling · Mobile-first web',
