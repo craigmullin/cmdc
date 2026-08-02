@@ -9,7 +9,7 @@ export const projects = [
   {
     title: 'SpikeChat',
     status: 'Active prototype',
-    description: 'A PWA for composing realistic fictional conversations with editable messages, images, and social-post formats.',
+    description: 'A browser-based conversation mockup studio with editable messages, images, and social media layouts.',
     technology: 'React · TypeScript · Firebase · PWA',
     href: 'https://spikechat.craigmullin.com',
   },
