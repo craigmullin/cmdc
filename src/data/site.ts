@@ -7,14 +7,14 @@ export const site = {
 
 export const projects = [
   {
-    title: 'Spikechat',
+    title: 'SpikeChat',
     status: 'Active prototype',
     description: 'A PWA for composing realistic fictional conversations with editable messages, images, and social-post formats.',
     technology: 'React · TypeScript · Firebase · PWA',
     href: 'https://spikechat.craigmullin.com',
   },
   {
-    title: 'Personal Vehicle Maintenance',
+    title: 'Home Garage Manager',
     status: 'Concept / in development',
     description: 'A personal garage and maintenance-history app designed around real repair work, parts, torque specifications, receipts, and service intervals.',
     technology: 'Product design · Data modeling · Mobile-first web',

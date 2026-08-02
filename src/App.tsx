@@ -49,7 +49,7 @@ export default function App() {
           <aside className="currently" aria-labelledby="currently-title">
             <p className="eyebrow">Now / next</p>
             <h2 id="currently-title">Currently</h2>
-            <p>Building the first public version of this site, expanding Spikechat, and developing a personal vehicle-maintenance application.</p>
+            <p>Building the first public version of this site, expanding SpikeChat, and developing a personal vehicle-maintenance application.</p>
           </aside>
         </main>
 

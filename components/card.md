@@ -103,7 +103,7 @@ gap: var(--space-5);
 <article class="card">
   <p class="card__eyebrow">Product experiment · 2026</p>
   <h3 class="card__title">
-    <a href="/projects/spikechat">Spikechat</a>
+    <a href="/projects/spikechat">SpikeChat</a>
   </h3>
   <p class="card__description">
     A PWA for composing realistic fictional conversations with images and editable message states.
