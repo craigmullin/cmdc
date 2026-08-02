@@ -11,7 +11,7 @@ export const projects = [
     status: 'Active prototype',
     description: 'A PWA for composing realistic fictional conversations with editable messages, images, and social-post formats.',
     technology: 'React · TypeScript · Firebase · PWA',
-    href: '',
+    href: 'https://spikechat.craigmullin.com',
   },
   {
     title: 'Personal Vehicle Maintenance',
