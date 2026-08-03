@@ -3,7 +3,7 @@ import { site } from '../data/site'
 export function Header() {
   return (
     <header className="site-header">
-      <a className="wordmark" href="#top" aria-label="Craig Mullin, home">C<span>.</span></a>
+      <a className="wordmark" href="#top" aria-label="Craig Mullin, home">M<span>.</span></a>
       <nav aria-label="Primary navigation">
         <a href="#work">Work</a>
         <a href="#about">About</a>
