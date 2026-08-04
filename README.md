@@ -27,5 +27,5 @@ build verification.
 ## Repository history
 
 This repository preserves the complete early history shared with the Craig
-Mullin Design Language. The application and design language were separated with
+legacy Design source. The application and design system were separated with
 ordinary cleanup commits so original commit identifiers remain intact.
