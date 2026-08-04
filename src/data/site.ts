@@ -7,7 +7,7 @@ export const site = {
 
 export const projects = [
   {
-    title: 'Chat',
+    title: 'SpikeChat',
     status: 'Active prototype',
     description: 'A browser-based conversation mockup studio with editable messages, images, and social media layouts.',
     technology: 'React · TypeScript · Firebase · PWA',
