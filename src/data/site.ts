@@ -7,18 +7,25 @@ export const site = {
 
 export const projects = [
   {
-    title: 'SpikeChat',
+    title: 'Mimichat',
     status: 'Active prototype',
     description: 'A browser-based conversation mockup studio with editable messages, images, and social media layouts.',
     technology: 'React · TypeScript · Firebase · PWA',
-    href: 'https://spikechat.craigmullin.com',
+    href: 'https://mimichat.craigmullin.com',
+  },
+  {
+    title: 'SpikeStat',
+    status: 'Live app',
+    description: 'A volleyball match and player-stat tracker for recording sets courtside and reviewing team, tournament, and player totals.',
+    technology: 'React · TypeScript · Firebase',
+    href: 'https://spikestat.craigmullin.com',
   },
   {
     title: 'Ledger',
-    status: 'Concept / in development',
+    status: 'Live app',
     description: 'A personal garage and maintenance-history app designed around real repair work, parts, torque specifications, receipts, and service intervals.',
     technology: 'Product design · Data modeling · Mobile-first web',
-    href: '',
+    href: 'https://github.com/craigmullin/ledger',
   },
   {
     title: 'Design',
