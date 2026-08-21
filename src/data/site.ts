@@ -25,7 +25,7 @@ export const projects = [
     status: 'Live app',
     description: 'A personal garage and maintenance-history app designed around real repair work, parts, torque specifications, receipts, and service intervals.',
     technology: 'Product design · Data modeling · Mobile-first web',
-    href: 'https://github.com/craigmullin/ledger',
+    href: 'https://ledger.craigmullin.com/',
   },
   {
     title: 'Design',
