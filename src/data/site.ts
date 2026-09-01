@@ -7,6 +7,13 @@ export const site = {
 
 export const projects = [
   {
+    title: 'DartStat',
+    status: 'Live app',
+    description: 'A mobile-first darts practice tracker for recording every throw and reviewing session and lifetime statistics.',
+    technology: 'React · TypeScript · Firebase · PWA',
+    href: 'https://dartstat.craigmullin.com',
+  },
+  {
     title: 'Mimichat',
     status: 'Active prototype',
     description: 'A browser-based conversation mockup studio with editable messages, images, and social media layouts.',
