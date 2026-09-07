@@ -41,6 +41,7 @@ h1 em, .section-heading em { font-weight: 400; }
 .project-card__topline { display: flex; justify-content: space-between; gap: 1rem; }
 .project-card__number { font: 400 .75rem/1.4 var(--font-mono); color: var(--color-graphite); }
 .project-card h3 { margin: 2.5rem 0 1.2rem; font: 500 2rem/1.05 var(--font-serif); }
+.project-card__period { color: var(--color-orange); }
 .project-card__description { margin: 0; }
 .project-card__meta { margin: auto 0 1.5rem; padding-top: 2rem; font: 400 .75rem/1.6 var(--font-mono); color: var(--color-graphite); }
 .project-card__link, .project-card__pending { width: fit-content; font-size: .875rem; font-weight: 500; }

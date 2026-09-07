@@ -18,7 +18,7 @@ export const projects = [
     status: 'Live app',
     description: 'A cheerful, unhurried word-finding game with hundreds of offline puzzles, custom source words, and a pressure-free Zen Mode.',
     technology: 'React · TypeScript · Firebase · PWA',
-    href: 'https://wordflare-21070.web.app',
+    href: 'https://wordflare.craigmullin.com',
   },
   {
     title: 'SpikeStat',
