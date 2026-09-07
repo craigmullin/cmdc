@@ -14,11 +14,11 @@ export const projects = [
     href: 'https://dartstat.craigmullin.com',
   },
   {
-    title: 'Mimichat',
-    status: 'Active prototype',
-    description: 'A browser-based conversation mockup studio with editable messages, images, and social media layouts.',
+    title: 'WordFlare.',
+    status: 'Live app',
+    description: 'A cheerful, unhurried word-finding game with hundreds of offline puzzles, custom source words, and a pressure-free Zen Mode.',
     technology: 'React · TypeScript · Firebase · PWA',
-    href: 'https://mimichat.craigmullin.com',
+    href: 'https://wordflare-21070.web.app',
   },
   {
     title: 'SpikeStat',
