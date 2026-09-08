@@ -39,7 +39,22 @@ export default function App() {
             <div className="about__copy">
               <p>I am a software engineer with a background in Java, cloud applications, and enterprise systems. I am most interested in the space where engineering, product judgment, and visual clarity overlap.</p>
               <p>I use AI as a working partner for research, iteration, and implementation—not as a substitute for understanding the work.</p>
+              <Button href={site.resumeUrl} variant="secondary">Download résumé</Button>
               <p className="skills">Java · Spring · AWS · React · TypeScript · Product thinking · AI-assisted development</p>
+            </div>
+          </section>
+
+          <section className="section resume" id="resume" aria-labelledby="resume-title">
+            <div>
+              <h2 id="resume-title">Experience,<br /><em>in detail.</em></h2>
+            </div>
+            <div className="resume__copy">
+              <p>Senior full-stack engineer focused on enterprise integration, cloud applications, and thoughtful product development.</p>
+              <p>My résumé includes my full professional experience, independent projects, technical skills, and education.</p>
+              <div className="resume__actions">
+                <Button href={site.resumeUrl}>Download résumé</Button>
+                <Button href="#contact" variant="secondary">Contact me</Button>
+              </div>
             </div>
           </section>
 
@@ -50,13 +65,15 @@ export default function App() {
         </main>
 
         <footer id="contact">
-          <div>
-            <h2>Good work starts<br />with a conversation.</h2>
+          <div className="contact__intro">
+            <h2>Let's talk.</h2>
+            <p>I'm interested in senior software engineering, product-minded development, and thoughtful uses of AI.</p>
+            <a className="contact__email" href={`mailto:${site.email}`}>{site.email}</a>
           </div>
           <div className="footer__links" aria-label="Contact links">
-            {site.email && <a href={`mailto:${site.email}`}>Email <span aria-hidden="true">↗</span></a>}
+            <a href={`mailto:${site.email}`}>Email Craig <span aria-hidden="true">↗</span></a>
+            <a href={site.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
             <a href={site.githubUrl} target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-            {site.linkedinUrl && <a href={site.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>}
           </div>
           <div className="footer__base">
             <span>© {new Date().getFullYear()} Craig Mullin</span>

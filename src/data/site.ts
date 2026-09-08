@@ -1,8 +1,8 @@
 export const site = {
-  email: '',
+  email: 'craig@craigmullin.com',
   githubUrl: 'https://github.com/craigmullin',
-  linkedinUrl: '',
-  resumeUrl: '',
+  linkedinUrl: 'https://www.linkedin.com/in/craig-mullin',
+  resumeUrl: '/craig_mullin_resume.pdf',
 } as const
 
 export const projects = [
