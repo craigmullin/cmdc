@@ -14,9 +14,7 @@ a:focus-visible { outline: 2px solid var(--color-signal); outline-offset: 3px; }
 nav { display: flex; gap: clamp(1rem, 3vw, 2rem); }
 nav a { min-height: var(--touch-target); display: inline-flex; align-items: center; font-size: .875rem; font-weight: 500; text-decoration: none; }
 nav a:hover { text-decoration: underline; }
-.eyebrow { margin: 0 0 1.5rem; font: 500 .75rem/1.4 var(--font-mono); text-transform: uppercase; letter-spacing: .08em; color: var(--text-secondary); }
 .hero { min-height: calc(100svh - 5rem); display: grid; grid-template-columns: 1.3fr 1fr; grid-template-rows: auto 1fr; column-gap: clamp(2rem, 8vw, 8rem); padding-top: clamp(3rem, 8vw, 6rem); padding-bottom: clamp(8rem, 13vw, 11rem); align-items: end; }
-.hero > .eyebrow { grid-column: 1 / -1; align-self: start; }
 h1 { margin: 0; font: 400 clamp(4.5rem, 12vw, 9rem)/.88 var(--font-serif); letter-spacing: -.055em; }
 h1 em, .section-heading em { font-weight: 400; }
 .hero__statement { padding-bottom: .7rem; }
@@ -31,16 +29,13 @@ h1 em, .section-heading em { font-weight: 400; }
 .button:active { transform: translateY(1px); }
 .section { padding-block: clamp(5rem, 10vw, 9rem); border-top: 1px solid var(--color-line); }
 .section-heading { display: grid; grid-template-columns: 1fr 2fr; gap: 2rem; margin-bottom: clamp(3rem, 7vw, 6rem); }
-.section-heading .eyebrow { margin-top: .75rem; }
 .section-heading h2, footer h2 { margin: 0; font: 400 clamp(2.8rem, 6vw, 5.5rem)/.93 var(--font-serif); letter-spacing: -.035em; }
 .project-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; align-items: start; }
 .project-card { min-height: 30rem; display: flex; flex-direction: column; padding: clamp(1.4rem, 2.5vw, 2rem); background: var(--surface-raised); border: 1px solid var(--border-default); border-radius: var(--radius-md); }
 .project-card:nth-child(2) { margin-top: 3rem; background: var(--surface-subtle); }
 .project-card:nth-child(3) { margin-top: 6rem; background: var(--surface-inverse); color: var(--text-inverse); }
-.project-card:nth-child(3) .eyebrow, .project-card:nth-child(3) .project-card__meta, .project-card:nth-child(3) .project-card__number { color: var(--border-default); }
-.project-card__topline { display: flex; justify-content: space-between; gap: 1rem; }
-.project-card__number { font: 400 .75rem/1.4 var(--font-mono); color: var(--color-graphite); }
-.project-card h3 { margin: 2.5rem 0 1.2rem; font: 500 2rem/1.05 var(--font-serif); }
+.project-card:nth-child(3) .project-card__meta { color: var(--border-default); }
+.project-card h3 { margin: 0 0 1.2rem; font: 500 2rem/1.05 var(--font-serif); }
 .project-card__period { color: var(--color-orange); }
 .project-card__description { margin: 0; }
 .project-card__meta { margin: auto 0 1.5rem; padding-top: 2rem; font: 400 .75rem/1.6 var(--font-mono); color: var(--color-graphite); }
@@ -55,7 +50,6 @@ h1 em, .section-heading em { font-weight: 400; }
 .currently h2 { margin: -.25rem 0 0; font: 500 2rem/1 var(--font-serif); }
 .currently > p:last-child { max-width: 32rem; margin: 0; }
 footer { display: grid; grid-template-columns: 2fr 1fr; gap: 4rem; padding: clamp(4rem, 9vw, 8rem) clamp(1.5rem, 6vw, 5rem) 2rem; margin-inline: calc((100vw - min(100vw - 2rem, var(--content-max))) / -2); padding-inline: max(calc((100vw - var(--content-max)) / 2 + 5rem), 2rem); background: var(--color-night); color: var(--color-paper-bright); }
-footer .eyebrow { color: var(--color-line); }
 .footer__links { display: flex; flex-direction: column; padding-top: 2rem; }
 .footer__links a { display: flex; justify-content: space-between; min-height: 3rem; border-bottom: 1px solid #ffffff30; text-decoration: none; }
 .footer__links a:hover { color: var(--color-signal); }
@@ -77,7 +71,6 @@ footer .eyebrow { color: var(--color-line); }
   .about { grid-template-columns: 1fr; }
   .about__copy { padding-top: 0; }
   .currently { grid-template-columns: 1fr; gap: 1rem; }
-  .currently .eyebrow { margin-bottom: 1rem; }
   footer { grid-template-columns: 1fr; padding-inline: 1.5rem; }
   .footer__base { grid-column: auto; grid-template-columns: 1fr auto; }
   .footer__aside { grid-column: 1 / -1; grid-row: 1; }

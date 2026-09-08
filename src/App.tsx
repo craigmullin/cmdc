@@ -12,7 +12,6 @@ export default function App() {
         <Header />
         <main id="main">
           <section className="hero" aria-labelledby="hero-title">
-            <p className="eyebrow">Software engineer · United States</p>
             <h1 id="hero-title">Craig<br /><em>Mullin</em><span>.</span></h1>
             <div className="hero__statement">
               <h2>Software engineer, systems thinker, and design-minded builder.</h2>
@@ -26,17 +25,15 @@ export default function App() {
 
           <section className="section" id="work" aria-labelledby="work-title">
             <div className="section-heading">
-              <p className="eyebrow">Selected work · 2026</p>
               <h2 id="work-title">Things made<br />with intention.</h2>
             </div>
             <div className="project-grid">
-              {projects.map((project, index) => <ProjectCard key={project.title} {...project} index={index} />)}
+              {projects.map((project) => <ProjectCard key={project.title} {...project} />)}
             </div>
           </section>
 
           <section className="section about" id="about" aria-labelledby="about-title">
             <div className="section-heading">
-              <p className="eyebrow">About</p>
               <h2 id="about-title">Engineering with<br /><em>judgment.</em></h2>
             </div>
             <div className="about__copy">
@@ -47,7 +44,6 @@ export default function App() {
           </section>
 
           <aside className="currently" aria-labelledby="currently-title">
-            <p className="eyebrow">Now / next</p>
             <h2 id="currently-title">Currently</h2>
             <p>Building this studio site, expanding SpikeChat, modernizing SpikeStat, and developing Ledger.</p>
           </aside>
@@ -55,7 +51,6 @@ export default function App() {
 
         <footer id="contact">
           <div>
-            <p className="eyebrow">Contact</p>
             <h2>Good work starts<br />with a conversation.</h2>
           </div>
           <div className="footer__links" aria-label="Contact links">
